@@ -16,8 +16,8 @@ function draw() {
   arc(a, b, 70, 70,z,  w);
 
 
-a=a+6;
-b=b+6;
+//a=a+6;
+//b=b+6;
  x=x+1;
  y=y+1;
  z=z+1;
