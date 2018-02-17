@@ -1,0 +1,31 @@
+
+var x = 0,y = 3.1,a=50,b=55;
+function setup() {
+  createCanvas(710, 400);
+
+  }
+
+
+function draw() {
+  background(200,100,255);
+  noStroke();
+  fill(200,0,0);
+  arc(a, b, 70, 70,x,  1.6);
+
+
+  fill(0,200,0);
+  arc(a, b, 70, 70,1.6,  3.2);
+  // fill(0,0,200);
+
+  fill(0,0,200);
+  arc(a, b, 70, 70,3.2,  4.7);
+
+  fill(0,100,200);
+  //arc(a, b, 70, 70,3.9,  4.5);
+
+  fill(100,100,200);
+  arc(a, b, 70, 70,4.7,  0);
+
+
+
+}
