@@ -1,0 +1,19 @@
+
+var x = 0,y = 3.1,a=50,b=55;
+function setup() {
+  createCanvas(710, 400);
+
+  }
+
+
+function draw() {
+background(200,100,255);
+  strokeWeight(80);
+  stroke(0,0,0);
+  //
+// fill(rgb(0,255),rgb(0,255),rgb(0,255));
+triangle(100, 200, 150, 150, 186, 200);
+
+
+
+}
